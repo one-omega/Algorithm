@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lab.iml" filepath="$PROJECT_DIR$/lab.iml" />
       <module fileurl="file://$PROJECT_DIR$/percolation-demo/percolation-demo.iml" filepath="$PROJECT_DIR$/percolation-demo/percolation-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sort-demo/sort-demo.iml" filepath="$PROJECT_DIR$/sort-demo/sort-demo.iml" />
     </modules>
   </component>
 </project>

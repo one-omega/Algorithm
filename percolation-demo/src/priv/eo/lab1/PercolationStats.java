@@ -1,8 +1,10 @@
-package priv.eo.lab;
+package priv.eo.lab1;
 
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
+
+import java.util.Scanner;
 
 public class PercolationStats {
     private static final double CONFIDENCE_CONST = 1.96;
@@ -52,11 +54,18 @@ public class PercolationStats {
 
     // test client, described below
     public static void main(String[] args) {
-        PercolationStats percolationStats = new PercolationStats(2, 100000);
+        System.out.println("enter N, T:");
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+        int T = in.nextInt();
+        long startTime = System.currentTimeMillis();
+        PercolationStats percolationStats = new PercolationStats(N, T);
         StdOut.println("mean                    = " + percolationStats.mean());
+        long endTime = System.currentTimeMillis();
         StdOut.println("stddev                  = " + percolationStats.stddev());
         StdOut.println("95% confidence interval = [" + percolationStats.confidenceLo() + ","
                 + percolationStats.confidenceHi() + "]");
+        StdOut.println("the cost of time        = " + (endTime - startTime) + "ms");
     }
 }
 
