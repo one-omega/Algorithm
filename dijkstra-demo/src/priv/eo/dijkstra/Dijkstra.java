@@ -30,8 +30,8 @@ public class Dijkstra {
         while (!pq.isEmpty()) {
             int v = pq.delMin();
             // draw
-            if (v == d)
-                return;
+//            if (v == d)
+//                return;
             for (Edge e : G.adj(v))
                 relax(e, v, vLoc, d);
         }

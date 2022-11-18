@@ -24,18 +24,20 @@ public class DijkstraImprove {
 
         StdDraw.setPenColor(StdDraw.GRAY);
 
+        pq = new IndexMultiwayMinPQ<Double>(G.V(), 4);
+
         // relax vertices in order of distance from s
-        pq = new IndexMultiwayMinPQ<Double>(G.V(), 2);
         pq.insert(s, distTo[s]);
         while (!pq.isEmpty()) {
             int v = pq.delMin();
             // draw
+
             if (v == d)
                 return;
+
             for (Edge e : G.adj(v))
                 relax(e, v, vLoc, d);
         }
-
     }
 
     // relax edge e and update pq if changed

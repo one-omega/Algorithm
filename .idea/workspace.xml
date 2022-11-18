@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4945abf9-d778-4280-bf62-e5dd8cda3468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dijkstra-demo/src/priv/eo/dijkstra/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/dijkstra-demo/src/priv/eo/dijkstra/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dijkstra-demo/src/priv/eo/dijkstra/DijkstraImprove.java" beforeDir="false" afterPath="$PROJECT_DIR$/dijkstra-demo/src/priv/eo/dijkstra/DijkstraImprove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dijkstra-demo/priv/eo/dijkstra/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dijkstra-demo/priv/eo/dijkstra/Dijkstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dijkstra-demo/priv/eo/dijkstra/DijkstraImprove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dijkstra-demo/priv/eo/dijkstra/DijkstraImprove.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +201,8 @@
       <workItem from="1667963178901" duration="721000" />
       <workItem from="1668003102510" duration="73000" />
       <workItem from="1668686234012" duration="7053000" />
-      <workItem from="1668738684129" duration="5357000" />
+      <workItem from="1668738684129" duration="7699000" />
+      <workItem from="1668750034753" duration="2458000" />
     </task>
     <servers />
   </component>
