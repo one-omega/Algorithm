@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lab.iml" filepath="$PROJECT_DIR$/lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-demo.iml" filepath="$PROJECT_DIR$/algorithm-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dijkstra-demo/dijkstra-demo.iml" filepath="$PROJECT_DIR$/dijkstra-demo/dijkstra-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/percolation-demo/percolation-demo.iml" filepath="$PROJECT_DIR$/percolation-demo/percolation-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/practice.iml" filepath="$PROJECT_DIR$/practice/practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/sort-demo/sort-demo.iml" filepath="$PROJECT_DIR$/sort-demo/sort-demo.iml" />
     </modules>
   </component>
